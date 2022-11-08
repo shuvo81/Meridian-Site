@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Dancing+Script:wght@500&family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+/*font-family: 'Aladin', cursive;*/
+/*font-family: 'Roboto', sans-serif;*!*/
+/*font-family: 'Dancing Script', cursive;*/
+
+/*Common Class*/
+.boldBlack{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 28px;
+}
+.colrHead{
+    color: #c49e60;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: -10px;
+
+}
+
+/* NavBar Part Start */
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 38px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-default .navbar-brand::after {
+    display: block;
+    height: 3px;
+    font-weight: bold;
+    background-color: #c49e60;
+    content: " ";
+    width: 185px;
+    margin: 0.6rem auto 1.5rem auto;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #c49e60;
+}
+.navbar-default .navbar-nav > li > a:hover::after {
+
+    display: block;
+    height: 2px;
+    width: 40px;
+    font-weight: normal;
+    background-color: #c49e60;
+    content: " ";
+    margin: 0.2rem auto 0.5rem 0.2rem;
+}
+
+/* Banner Part Start */
+#banner {
+    background: linear-gradient(rgba(30,38,37,.7),rgba(30,38,37,.7)),url("../images/banner-img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    color: #ffffff;
+    background-size: cover;
+}
+#banner .text{
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+    color: #fefefe;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#banner .text p{
+    margin-left: 30px;
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    color: #c49e60;
+    margin-bottom: -10px;
+
+}
+#banner .text span{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+#banner .text .h4{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 13px;
+    letter-spacing: 2px;
+    margin-top: -20px;
+}
+
+/*Discover Our History*/
+#discoverHistory{
+    padding: 60px 0px;
+
+}
+#discoverHistory .col-sm-6 .txt{
+    line-height: 28px;
+}
+#discoverHistory .col-sm-6 .h5{
+    color: #c49e60;
+    letter-spacing: 2px;
+}
+#discoverHistory .col-sm-6 .h5{
+    color: #c49e60;
+    letter-spacing: 2px;
+}
+#discoverHistory .col-sm-6 .h5::after{
+display: block;
+height: 1px;
+width: 90px;
+font-weight: normal;
+background-color: #c49e60;
+content: " ";
+margin: 0rem auto 0rem auto;
+}
+
+/*More About Feature Part*/
+#moreAboutFeature{
+    padding: 20px 0px;
+}
+#moreAboutFeature .row{
+    padding: 40px 0px;
+
+}
+#moreAboutFeature .row i{
+    color: #c49e60;
+    font-size: 28px;
+}
+#moreAboutFeature .row .h5{
+    color: #c49e60;
+    font-weight: bold;
+}
+/*Banner-2 Part Start*/
+#banner-2{
+    background: linear-gradient(rgba(30,38,37,.7),rgba(30,38,37,.7)),url("../images/banner-img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 450px;
+    color: #ffffff;
+    background-size: cover;
+}
+#banner-2 .textDiv{
+    padding-top: 160px;
+}
+#banner-2 .textDiv .h1{
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+}
+
+/*Real Tast Categories Part Start*/
+#realTast{
+    padding: 40px 0px;
+}
+#realTast ul{
+    margin-left: 370px;
+    padding: 20px 0px;
+}
+#realTast .nav-pills > li > a {
+    border-radius: 0px;
+    background-color: #c49e60;
+    color: white;
+    margin-right: 10px;
+}
+
+/*accordion mains part*/
+#mains .col-sm-6 p .taka{
+    margin-left: 100px;
+    position: absolute;
+    font-size: 40px;
+    padding-top: 18px;
+}
+#mains .col-sm-6 .h4{
+    position: absolute;
+    margin-top: -350px;
+}
+#mains .col-sm-6 .h5{
+    position: absolute;
+    margin-top: -380px;
+    padding-top: 15px;
+}
+#mains .col-sm-6 p .dollar{
+    margin-left: 90px;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 34px;
+}
+ /*accordion starter part*/
+#starters .col-sm-6 p .taka{
+    margin-left: 100px;
+    position: absolute;
+    font-size: 40px;
+    padding-top: 18px;
+}
+#starters .col-sm-6 .h4{
+    position: absolute;
+    margin-top: -350px;
+}
+#starters .col-sm-6 .h5{
+    position: absolute;
+    margin-top: -380px;
+    padding-top: 15px;
+}
+#starters .col-sm-6 p .dollar{
+    margin-left: 90px;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 34px;
+}
+/*accordion dessert part*/
+#dessert .col-sm-6 p .taka{
+    margin-left: 100px;
+    position: absolute;
+    font-size: 40px;
+    padding-top: 18px;
+}
+#dessert .col-sm-6 .h4{
+    position: absolute;
+    margin-top: -350px;
+}
+#dessert .col-sm-6 .h5{
+    position: absolute;
+    margin-top: -380px;
+    padding-top: 15px;
+}
+#dessert .col-sm-6 p .dollar{
+    margin-left: 90px;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 34px;
+}
+/*accordion drinkd part*/
+#drinks .col-sm-6 p .taka{
+    margin-left: 100px;
+    position: absolute;
+    font-size: 40px;
+    padding-top: 18px;
+}
+#drinks .col-sm-6 .h4{
+    position: absolute;
+    margin-top: -350px;
+}
+#drinks .col-sm-6 .h5{
+    position: absolute;
+    margin-top: -380px;
+    padding-top: 15px;
+}
+#drinks .col-sm-6 p .dollar{
+    margin-left: 90px;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 34px;
+}
+
+/*Banner-3 Start*/
+#banner-3{
+    background: linear-gradient(rgba(30,38,37,.7),rgba(30,38,37,.7)),url("../images/banner-img3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    color: #ffffff;
+    background-size: cover;
+}
+#banner-3 .text3{
+    padding-top: 190px;
+}
+#banner-3 .h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+/*Make A Reservation Start*/
+#makeReservation{
+    padding: 50px 0px;
+}
+#makeReservation .h1{
+    margin-top: 5px;
+}
+#makeReservation .row{
+    padding: 40px 0px 20px 0px;
+}
+#makeReservation i{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#makeReservation a{
+    border: 2px solid #c49e60;
+    padding: 10px 70px;
+    background-color: #c49e60;
+    line-height: 60px;
+    margin-left: 460px;
+    text-decoration: none;
+    color: white;
+}
+
+/*Man Part Start*/
+#man{
+    background-color: #eeeeee;
+    /*padding: 40px 0px;*/
+    height: 500px;
+    width: 100%;
+}
+/*Man Part Start*/
+#man img{
+    height: 550px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -50px;
+}
+#man .rightPart{
+    position: absolute;
+    padding-top: 200px;
+}#man .leftPart{
+     position: absolute;
+     padding-top: 200px;
+    margin-left: 900px;
+    direction: rtl;
+ }
+
+/*Want to Contact Us*/
+#wantContactUs{
+    padding: 50px 0px;
+}
+#wantContactUs .h1{
+    margin-top: 5px;
+}
+#wantContactUs .row{
+    padding-top: 40px;
+}
+#wantContactUs .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 20px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#wantContactUs .btn {
+    display: inline-block;
+    padding: 10px 245px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 0px;
+    background-color: #c49e60;
+    color: white;
+}
+/*fa-section Start*/
+#fa_Section{
+    padding: 50px 0px;
+}
+#fa_Section i{
+    font-size: 28px;
+    color: #c49e60;
+}
+#fa_Section .h5{
+    font-weight: bold;
+}
+#fa_Section span{
+    color: #c49e60;
+}
+
+/*Footer Part Start*/
+#footer{
+    background-color: #121013;
+    padding: 60px 0px;
+}
+#footer .col-sm-6 .h4{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+#footer .col-sm-6 .h4::after{
+    display: block;
+    height: 2px;
+    font-weight: bold;
+    background-color: #c49e60;
+    content: " ";
+    width: 120px;
+    margin: 0.6rem auto 0.5rem 0.2rem;
+}
+
+#footer .col-sm-6 span{
+    color: #999999;
+
+}
+
+/*lower Part*/
+#lower{
+    background-color: #1c1a1d;
+    padding: 50px 0px;
+}
+#lower i{
+    background-color: #333134;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    padding: 19px;
+    color: #1c1a1d;
+    font-size: 24px;
+}
+#lower p{
+    padding-top: 20px;
+    color: #999999;
+}
